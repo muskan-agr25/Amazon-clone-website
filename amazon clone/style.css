@@ -13,6 +13,7 @@
     justify-content: space-evenly;
 
 }
+
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -25,6 +26,9 @@
 }
 .border{
     border: 1.5px solid transparent;
+     cursor: pointer;
+     padding: 5px;
+     border-radius: 5px;
 
 }
 .border:hover{
@@ -121,6 +125,13 @@ span{
 .panel-options p{
     display: inline;
     margin-left: 15px;
+    cursor: pointer;
+
+}
+.panel-options p:hover{
+   
+  color: orange; 
+  cursor: pointer;
 
 }
 .panel-options{
@@ -183,7 +194,11 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
     
+}
+.box-img:hover{
+    transform: scale(1.1);
 }
 
 .box-content{
@@ -193,6 +208,12 @@ span{
 
 .box-content p{
     color:#007185 ;
+}
+.box-content p:hover{
+   
+  color: orange;
+  cursor: pointer;
+
 }
 
 /* footer */
